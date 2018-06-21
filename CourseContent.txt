@@ -1,0 +1,179 @@
+Java Full Stack Course:
+======================
+
+- Introduction
+- Types of softwares and where java fits
+
+Syllabus:
+
+JSE: (core java)
+====
+
+
+I. Introduction 
+
+- Why Java 
+- Java history
+- Java features
+- Difference between JDK,JRE and JVM 
+- Unicode System 
+- Java Data Types
+- WRAPPERCLASSES
+- Java Statements
+- Arrays
+
+II. OOPS
+
+- Introduction 
+- Class
+- Object
+- Inheritance
+- Abstraction
+- Encapsulation
+- Abstract Classes
+- Interfaces
+- Polymorphism
+- Dynamic Binding
+
+
+III. STRING MANIPULATIONS
+
+- String
+- String Buffer
+- Strig Builder
+- String Tokenizer
+- String Pool mechanism
+
+IV. PACKAGES
+
+- Introduction to all predefined packages
+- User Defined Packages
+- Access Specifiers
+
+V. EXCEPTION HANDLING
+
+- Introduction
+- Pre Defined Exceptions 
+- Try-Catch-Finally
+- Try with resouorces
+- Throws, throw
+- User Defined Exception examples
+
+VI. MULTITHREADING
+
+- Thread Creations
+- Thread Life Cycle
+- Life Cycle Methods
+- Synchronization
+- Wait() notify() notify all() methods
+
+VII. I/O STREAMS
+
+- Introduction
+- Byte-oriented streams
+- Character – oriented streams
+- File
+- Random-access file
+- Serialization
+
+VIII. NETWORKING
+
+- Introduction 
+- Socket, Server socket 
+- Client –Server Communication
+
+IX. WRAPPERCLASSES
+
+- Introduction 
+- Byte, Short, Integer, Long, Float, Double, Character, Boolean classes.
+
+X. COLLECTION FRAME WORK
+
+- Introduction 
+- Util Package interfaces, List, Set, Map 
+- List interface 7 its classes 
+- Set interface & its classes 
+- Map interface & its classes
+
+XI.INNER CLASSES
+
+- Introduction 
+- Member inner class 
+- Static inner class 
+- Local inner class 
+- Anonymous inner class
+
+XII. Misc
+
+- JAVA 8 streams
+- JVM in detail
+- Interview Questions
+- Java 9 and 10 Features
+
+======================================
+Adv Java (JEE)
+==============
+
+
+XIII. JDBC
+- Introduction
+- Need
+- Types of drivers
+- Types of Statements
+- Transaction management
+- Misc Topics
+- Connection pool mechanism
+
+- WebServer vs AppServer
+
+XIV. Servlets
+- Introduction
+- Servlet life Cycle
+- Servlet to DB
+- Servlet to Servlet
+- Servlet Context, Servlet Config
+- Listeners
+- Session Tracking
+
+XV. JSP
+- Introduction
+- JSP life Cycle
+- Misc.
+
+XVI. Hibernate
+- Introduction
+- Need
+- Types
+- ORM
+- JPA
+- Cache HANDLING
+- Entity management
+- Misc.
+
+XVII. Web Services
+- Introduction
+- Types of webservices
+- RESTFul webservices
+- JSON vs XML
+- REST calls demo
+- Misc.
+
+
+XVIII. SpringBoot
+- Introduction
+- Advantages
+- Modules we have in spring framework
+- Understanding Modules
+
+
+** AngularJS (basic view)
+
+Project:
+========
+AngularJS -> SpringBoot -> Hibernate -> DB
+
+
+** Guiding -> 
+
+
+Git, Jenkins, JIRA

@@ -1,0 +1,97 @@
+Software:
+========
+S/w is a collection of pgms meant for performing some specific ops..
+
+1. System s/w
+  - development of device drivers - printers, scanner, drivers... .
+  - development of language compilers, interpretrs..  - javac , cpp, winmgc, 
+  - development of RTOS - linux, unix =, mac os,....
+
+lang ex: c, 8086, mp, verlog, matlab....
+
+2. Application s/w
+pupose of app s/w is to develop projects/ s/ws for orgs... (some orgs: banking sectors, healthcare sectors, tranp...)
+
+to develop app s/w we need 2 types of technologies:
+  - front end technologie
+      - purpose: GUI ( look and feel apps)
+        -- platform dependent front end technologies
+          - if we dev any guis with these techs by default they runs on windows but on linux os.. 
+        -- platform independent front end technologies
+          - java
+  - back end technologies
+    - purpose: persist data.
+      - 2 ways of data persistance...
+        - by using files
+        - by using db s/ws
+
+
+Standalone Applications vs Distrubed Applications:
+==================================================
+Standalone apps runs in the context of local disk and whose results can be accessible in the same machine but not across the universe...
+  - eclipse, sts, editplus..
+Distrubed apps runs in the context of browser/www and whose results can be shared accros the universe..
+  - websites, ecommerse sites, gmails... 
+
+
+3. Internet s/w
+===============
+pupose : to dev Distrubed apps
+  - java, .net, php, 
+
+
+
+=============================================================================================================================================
+History of java:
+===============
+James Gosling -> father / creator of java
+1990-1991 -> 1st release : OAK
+1995 -> java
+
+java s/w has 3 categories:
+  - JSE ( java standard edition )   -> core java
+  - JEE ( java enterprise edition ) -> adv java
+  - JME ( java micor/mobile edition ) -> android 
+
+Versions:
+--------
+java  jdk1, jdk1.1
+java2   jdk1.2,1.3
+
+java5   tigger s/w  -> jdk 1.5
+6
+7
+8        streams api
+9        functional 
+10       
+
+
+
+============================================================================================
+Features/Buzwords of  java:
+===============
+
+1. simple
+2. platform independent
+3. architectural neutral
+4. portable
+5. multi-threaded
+6. networed
+7. Distrubed
+8. high-perfomance
+9. highly interpreted
+10. robust
+11. secured
+12. dynamic
+13. OOPS
+
+-----------------------------------------------------------
+language => POPL, OOPL
+
+c - POPL
+java - OOPL
+
+
+programing lang vs scripting lang
+c, java    compile, intrept
+python  intrept
