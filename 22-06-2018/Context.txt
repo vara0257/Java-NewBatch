@@ -1,0 +1,89 @@
+1. Simple:
+==========
+ - java removed concept called pointers, instead they use Byte Code
+
+ sum.java     =>    sum.class  =>  JVM (JIT)  => Results
+
+ - Garbage collector
+
+ - Rich set of API for java
+  App programing interface  - API
+  API is a collection of packages
+  package is a collection of classes, interfaces, sub packages
+
+ - user-friendly syntaxes and we can make error free pgms with in less time
+
+
+
+ =============================================================================================================
+ Data types:
+ ===========
+ purpose of Data types is to allocate sufficient amount of memory space for input of pgm in the main memory of computer....
+
+ types: 
+  1. fundamental Data types/ predefined/ builtin
+    - purpose: to store only one value but never allows to store multiple values of same type
+    
+      int a;
+      a =19;  // valid
+      a = 1,2,3,4  // invalid
+
+
+  2. dervied data types
+    - purpose : allows us to store multiple values of same type but not different type
+      int [] a;
+      a = 1,2,3,4....       // valid
+      a = 1, "asdff", 1.12   //  invalid
+
+Array:
+  - collective name for group of consequtive memory locations refered by similar/ homogeneous values...
+
+  3. user/pgmer defined data types
+    - purpose: to store multiple values of either same type or different type
+      enum, class, interfaces
+
+      Employee=> 1, "asdf", 1.12336, 30, "asddfSdf"
+
+
+fundamental datatypes in java:
+-----------------------------
+8 fundamental data types in java..
+
+*** java: size occupied/ range of values, default values 
+
+size occupied (range of datatype) = 2 ^ no of bits occupied by particular data type
+
+1 bytes = 8 bits
+
+2 ^ 8  = 1 to 256   = 0 to 255/2  =  - 127.5  to  127.5  =  -128  to  127
+2 ^ 16 = 1 to 65536 = 0 to 65535/2 = - 32767.5 to  + 32767.5 = - 32768 to 32767
+
+  - Integer category
+      - byte    1bytes  0      
+      - short   2bytes  0
+      - int     4bytes  0
+      - long    8bytes  0
+
+  - float category    (IEEE)
+      - float   4bytes    7   0.0f
+          float x = 1.123f;
+      - double  8bytes    15    0.0
+          double y = 1.12345d;
+
+  - character category
+    - char    2bytes      /00U
+      - 'A', '%', '1'...  // valid
+      - 'asdf', '4567'  // invalid
+
+    - String        null
+        - group of chars
+          - "asdf", "%^&*", "52456", "A" // valid
+
+    - java follows Unicode system bcz of which a char uses 2 bytes
+    - other langs uses ascii system
+
+  - boolean category
+    - true / false    0/false
+      1 / 0
+
+      
