@@ -1,0 +1,123 @@
+Variables:
+=========
+ - a Variable is an identifier whose values changes  during execution of pgm.
+
+ Rule:
+  - alphabets, numbers, underscore
+  - 32
+  - the first letter of Variable name should start with small case
+  - CamelCase naming squareNumber
+  - keywords cant be used as Variables
+  - squareNumber_1,squareNumber_2, 
+
+-----
+Variable declaration:
+----------------------
+syntax:
+  datatype v1,v2,v3...vn;
+
+int a,b,c;
+a=1;
+b=2;
+
+
+int a = 1;
+int b =2;
+
+==================
+constants in java:
+====================
+final is a keyword used to make things constant in java....
+
+  - final at Variable level
+    - final Variables can have 1 time initializations....
+      - syntax:  final datatype v1,v2 // 
+                  v1=1, // 
+                  v2=2;
+
+      final datatype v1 = 1;
+
+** final Variable values cant be modified....
+
+
+  - final at method level
+    - final return_type method_name(formal parms if any){
+        // body of metho
+      }
+
+** final methods cannt be overriden    
+
+
+  - final at class level
+      final class classname{
+        //class members
+      }
+
+** final classes never participats in inheritance      
+
+
+---------------------------------------------
+methods
+---------------
+1. method call
+2. method definition
+3. method declaration
+
+syntax:
+  return_type method_name (formal params if any)
+  {
+    // method definition....
+  }
+
+  void sum(int a)
+  {
+    // operation
+  }
+  sum(1);
+
+  int sum(int a)
+  {
+    // operation
+    return values
+  }
+  int a = sum(1);
+
+
+  return_type : all datatypes and void
+
+possiblities/combinations:
+----------------------------
+1. method taking params and return values
+
+  <return_type> method_name(dt v, dt v....)
+  {
+    // body of my 
+    return values
+  }
+
+2. method taking params and not return values
+
+    void method_name(dt v, dt v....)
+  {
+    // body of my 
+  }
+
+3. method not taking params and return values
+
+    <return_type> method_name()
+    {
+      // body of my .. logic
+
+      return values
+    }
+
+4. method not taking params and not return values
+
+    void method_name()
+    {
+      // body of my .. logic
+
+    }
+
+
+
