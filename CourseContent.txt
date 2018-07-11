@@ -1,8 +1,9 @@
-Java Full Stack Course:
+﻿Java Full Stack Course:
 ======================
 
 - Introduction
 - Types of softwares and where java fits
+- Programing Language vs Scripting Language
 
 Syllabus:
 
@@ -15,12 +16,14 @@ I. Introduction
 - Why Java 
 - Java history
 - Java features
-- Difference between JDK,JRE and JVM 
+- Difference between JDK,JRE and JVM JIT
 - Unicode System 
 - Java Data Types
 - WRAPPERCLASSES
 - Java Statements
 - Arrays
+
+POPL vs OOPL
 
 II. OOPS
 
@@ -110,6 +113,7 @@ XII. Misc
 - Interview Questions
 - Java 9 and 10 Features
 
+
 ======================================
 Adv Java (JEE)
 ==============
@@ -153,6 +157,7 @@ XVI. Hibernate
 XVII. Web Services
 - Introduction
 - Types of webservices
+- SOAP vs REST
 - RESTFul webservices
 - JSON vs XML
 - REST calls demo
@@ -167,13 +172,21 @@ XVIII. SpringBoot
 
 
 ** AngularJS (basic view)
+XIX. Angular 5/6
+
+XX. AWS
+
 
 Project:
 ========
-AngularJS -> SpringBoot -> Hibernate -> DB
-
+	---------------------------------------------
+AWS[ AngularJS -> SpringBoot -> Hibernate -> DB]
+	---------------------------------------------
 
 ** Guiding -> 
 
 
-Git, Jenkins, JIRA
+Git, Jenkins, JIRA, Docker
+
+JUNIT => Mockito
+
