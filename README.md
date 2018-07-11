@@ -1,2 +1,2 @@
 # Java-NewBatch
-java full stack dev batch - izen - 8/10 batch
+java full stack dev free training batch - with Angular, AWS and DevOps
