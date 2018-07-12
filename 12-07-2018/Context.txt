@@ -1,0 +1,100 @@
+JVM, JIT
+JDK, JRE
+=========
+
+JRE: JVM + Libs  (to run java apps)
+JDK: JRE + dev tools (to develop java apps)
+
+---------------------------------------
+Data types:
+========
+purpose: to allocate sufficient amount of memory space for input of pgm in main memory of computer...
+
+  - fundamental data type/ predefined datatypes
+    - int a = 10
+      a = 1,2,3..
+        
+        - Integer cat     0  
+          datatypes   size in bytes   range
+          - byte      1
+          - short     2
+          - int       4
+          - long      8
+        - Float cat     size   0.0 
+          - Float  (7)    4
+          - double (15)   8
+        float a = 1.123f;
+        - Char cat    2   /00u
+            - Unicode
+        - Boolean cat   false
+          - true, false
+
+
+  range : 2 ^ no. of bits occupied 
+          2 ^ 8
+          1 to 256
+          0 to 255/2
+          127.5 to -127.5
+          -0.5    +0.5
+          -----------------
+          -128 to 127
+          ----------------
+
+  - derived datatypes
+    - to store multiple values but of same type
+      int a [] = {1,"asdf", 1.1} // invalid
+
+  - programmer defined datatypes
+    - class , interface, enum...
+
+Primitive, NonPrimitive
+
+----------------------------------------------------
+Variables:
+=========
+
+----------------
+      []
+----------------
+first letter of Variable must be alphabet
+other than "_" no special sumbol allowed
+ chars length is recomm..
+ no keywords/reserved words can be used..
+
+syntax:
+  datatype v1,v2,v3.... // declaration
+    v1 = i1;      // inititalization
+int a,b,c;
+a=1;
+b=2;
+
+  datatype v1 = i1;   // declaration and inititalization
+int a =1;
+int b= 2;
+
+pi=3.17f
+
+
+-----------------------------
+constants in java:
+===========
+keyword: final
+
+1. Variable level
+  syntax:  final datatype v1
+
+2. method level
+  final returntype methodname(formal optiona;){
+
+  }
+
+  // if i use final keyword at method level, those methods will never participate in method overriding
+
+3. class level
+  final class <>{
+
+  }
+  // if we declare a class with final as keyword, these classes will never participate in inheritace...
+
+
+  -------------------------------------------------------------

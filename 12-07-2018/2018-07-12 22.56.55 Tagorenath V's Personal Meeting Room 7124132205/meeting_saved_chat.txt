@@ -1,0 +1,9 @@
+23:00:29	 From  Ajay Joshi : yes
+23:00:32	 From  kalaiyarasan L : yes
+23:00:41	 From  Mayur : yes
+23:04:28	 From  kalaiyarasan L : one question, compilation will take place in JVM ?
+23:04:40	 From  kalaiyarasan L : ok
+23:06:21	 From  kalaiyarasan L : or only interpratation
+23:08:52	 From  kalaiyarasan L : ok
+23:21:44	 From  Ajay Joshi : 256
+23:21:47	 From  Ajay Joshi : only 
