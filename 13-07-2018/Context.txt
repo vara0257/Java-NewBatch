@@ -1,0 +1,79 @@
+Methods:
+=============
+subpgm of main pgm is called method..
+Purpose: perform similar operation in an app only once and we can use logic whenever required...
+
+
+
+method declaration
+method definition
+method call
+
+syntax:
+  <returntype> methodname(optional parmaters if any){
+    // method body -> logic
+    //return statement -> optional
+  }
+
+  int sumStudentMarks(1,2,3,4){
+    return 1+2+3+4;
+  }
+
+  int a = sumStudentMarks(1,2,3,4)
+  returntype : all datatypes + void
+    return statement in my method body
+  
+// method call...
+  returntype variable = methodname(optional parmaters if any);
+
+
+  parmaters => called as method signatures...
+
+  signatures incluldes => type of parmaters, order of parmaters, number of parmaters
+
+  
+  -------------------------------------------------------------------------------------
+  - taking params , no returntype  (xyz)
+  - taking params , returning values  (xyz)
+  - no params, no returntype   ()
+  - no params, returning values  ()
+
+  -------------------------------------------
+javac <filename.java>
+java filename
+--
+java -cp "completepath of class file" <filename>
+java -cp . <filename>
+-----
+
+OOPS:
+=====
+- class
+- object
+- data encapsulation
+- data abstraction
+- inheritance
+- polymorphism
+- dynamic binding
+
+
+
+-------------------------
+class:
+=======
+purpose:
+ to create pddt/uddt which allows us to store multiple values of same type or diff type
+
+class is a collection of datamembers and Methods
+  -  classes will have only logical existence but not physical existence
+
+  -  OOPgmng will have 2types of methods: 
+        - member methods        -> inside the class scope
+        - non member methods    -> outside the class scope
+
+        class sadf{
+          method()
+        }
+        
+** Java supports only member methods but not non member methods to avoid security issues we have with nnon member methods...
+
