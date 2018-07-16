@@ -1,0 +1,64 @@
+class:
+======
+- class have logical memory representation.
+  - fields
+  - methods
+  - constructors
+  - static blocks
+  - instanace blocks
+
+
+-> class members :
+  - static
+  - instanace
+
+
+static int a
+static returntype methodname(){
+
+    // 
+}
+
+
+int a
+returntype methodname(){
+
+    // 
+}
+
+<access modifiers> class <class_name>{
+  fields
+    // int a
+    // static int b
+  methods
+    // sum(){ //body }
+    // static sub() { // body }
+  class_name(){ // default 
+
+  }
+  class_name(int a){ // param constructor
+
+  }
+//static block
+static{
+
+}
+//instanace block
+{
+  
+}
+
+}
+
+
+-- class name and source file name should be same when we have public as class level accessmodifier; if not we  will get compile time error
+  - with this, only 1 source file can have 1 public class
+
+
+
+Object:
+========
+- instanace of a class
+  - new 
+    // direct Object
+  classname Objectname = new classname();
