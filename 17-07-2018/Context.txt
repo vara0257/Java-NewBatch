@@ -1,0 +1,93 @@
+Method Overloading - Method Overrriding:
+========================================
+Signature:=> 
+  no of parameters
+  type of parameters
+  order of parameters
+
+  sum(int , float)
+  sum(float, int)
+  sum(int)
+  sum(int , int , float)
+  sum(float, float, int)
+  
+
+** at the time of Method Overloading we never consider return type of Method, but we consider always same Method name with diff Signature ( atleat 1 parameters)
+
+
+MOL = MN same + Signature is diff...
+
+--
+MOR = Method heading is same + Method body is diff
+
+op(int x, int y){
+  int z = x+y
+}
+
+final op(int x, int y){
+  int z = x-y
+}
+
+
+** final methods can not be overridden
+
+------------------------------------
+
+System.out.println()
+System.out.print()
+
+class PrintStream
+{
+  println(int)
+  println(String)
+  print(int)
+}
+
+class System
+{
+  static out;
+  PrintStream out = new PrintStream();
+}
+
+
+----------------------------------------
+
+constructors:
+=============
+classname(x,x,x,x){
+
+}
+  - default constructors
+  - parameterized constructors
+
+-> it is mandatory for us to specify default constructor when we implement parameterized constructor inside a class
+
+-> constructors should not be static
+  - when ever an object is created, constructors will be called each and every time
+
+-> constructors of java will not participate in inheritance process
+  - every constructor is meant for initializing its  own class datamembers
+
+-> private before constructor, object can be created in the same class
+
+--------------------------------
+
+Static Blocks:
+==============
+purpose: to initialize static datamembers only once
+
+static
+{ 
+  // block of statmnts.. => to initialize the static datamembers
+}
+
+
+instance Blocks:
+================
+purpose: is similar to default constructors
+  executed each and every time when ever an object is created before executing constructor and after executing static Blocks
+
+{ 
+  // block of statmnts.. => to initialize instance datamembers
+}
+
