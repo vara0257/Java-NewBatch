@@ -1,0 +1,52 @@
+Accepting values dynamically to java pgm:
+=========================================
+
+  - by using cmd prompt
+  - by using keyboard
+  - by using properties file / Resource bundle files
+  - by reading files
+
+
+  -> 
+  public static void  main(String[] args)
+
+
+  length
+
+  for(<intialization>; <condition check>; <inc/dec>){
+    //
+  }
+
+
+  --------------
+  Wrapper classes:
+====================
+convert string to fundamental types...
+
+fundamental
+datatype  Wrapper class names
+-----------------------------------------------------------------
+byte      Byte                    public static byte parseByte(String)
+short     Short                   public static short parseShort(String)
+int       Integer                 public static int parseInt(String)
+long      Long                    public static long parseLong(String)
+float     Float                   public static float parseFloat(String)
+double    Double                  public static double parseDouble(String)
+char      Character                   -
+boolean   Boolean                 public static boolean parseBoolean(String)
+-------------------------------------------------------------------------------
+public static xxxx parseXxxx(String)
+----------------------------------------------------
+
+
+Variable Arguments (varargs)
+==============================
+
+public <returntype> <methodname>(<dt> ... <variablename>){
+  / method body
+}
+
+-- varargs internally considered as arrays by jvm
+- before varargs we are using overloaded methods
+- varargs can be max of 1 in a method
+- varargs should be last argument in a method
