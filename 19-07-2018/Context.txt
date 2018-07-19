@@ -1,0 +1,23 @@
+- Reading data from keyboard:
+===============================
+
+java.util
+Scanner
+
+Scanner s = new Scanner(System.in);
+
+-------------------------------------------------
+this:
+======
+  - 
+
+-----------------------------
+Inheritance:
+============
+
+types:
+
+  classes will support all Inheritance techni excecpt multiple Inheritance
+
+
+  
