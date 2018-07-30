@@ -1,0 +1,3 @@
+22:38:55	 From  Sasikumar : yes
+22:38:57	 From  kalyan : Yes
+22:54:35	 From  kalaiyarasan L : A - parent B - childpossible obj creations, which one is wrong? always had confusion on thisA obj = new A();B obj = new B();A obj = new B();B obj = new A();

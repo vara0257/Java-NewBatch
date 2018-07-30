@@ -1,0 +1,72 @@
+class1
+  show()
+  sum()
+  .
+  .
+  .
+class2 extends class1
+  disp()
+  add()
+  ...
+
+final
+
+-> create obj for derived class which contains all the features of base class
+
+------------------------------------------------------
+Relationship in java:
+=================
+-> is-a
+  class1 
+  class2 extends
+  -> logical memory allocations
+
+  java.lang.Object
+    (** implicit predefined super class of java)
+
+  there exists is-a Relationship b/w driver class and java.lang.Object
+
+
+-> has-a
+  datamemeber
+
+  class1
+  {
+    .......
+  }
+  class2
+  {
+    class1 obj = new class1()
+  }
+  -> always follows physical memory managmnt
+
+System.out.println();
+PrintStream and System class is has-a
+
+-> uses-a
+  class1
+  {
+    .....
+  }
+  class2{
+    ....
+    void xxx(){
+      class1 obj = new class1();
+    }
+  }
+
+  relationship b/w ELC and BLC is uses-a relationship
+==============================================
+
+Employee
+  id
+  name
+  salary
+
+Mangers 
+  team()
+  project()
+
+CEO
+  groupMemember()
+  
