@@ -1,0 +1,53 @@
+BC
+()
+(...)
+DC
+        super() //optional
+        super(...) //mandatory
+()
+(...)
+-------------------------------------
+this(...)
+super(...)
+
+----
+
+" recursive constructor invocation "  compile time will occur at cycles formaation of constructor calls...
+
+-----------------------------------------
+Polymorphism:
+=============
+representation of 1 form in multiple forms in called....
+
+form => method
+method participating in Polymorphism is called polymorphic method
+
+1. compile time Polymorphism / static
+2. run time Polymorphism / dynamic
+
+- method overloading
+- method overriding
+
+
+
+     BC
+  int a,b
+  void sum()
+
+
+DC1 extends BC        DC2 extends BC
+float a,b             double a,b
+void sum()            void sum()
+a+b                    a+b
+
+--------------------------------------
+Dynamic Binding:
+================
+
+classname1 obj = new classname2();
+
+JVM:
+  - what type of object         => JVM will check existence of method => IF not exists, we will get compile time error
+  - what type of reference object contains    => JVM will execute method depending on reference of object
+
+------------------------
